@@ -81,5 +81,6 @@ if [ -f "configure" ]; then
         --dest-os=android \
         --without-snapshot \
         --openssl-no-asm \
+        --shared \
         --cross-compiling
 fi
