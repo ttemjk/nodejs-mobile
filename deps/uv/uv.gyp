@@ -259,6 +259,7 @@
         }],
         [ 'OS=="android"', {
           'sources': [
+            'src/unix/epoll.c',
             'src/unix/linux-core.c',
             'src/unix/linux-inotify.c',
             'src/unix/linux-syscalls.c',
